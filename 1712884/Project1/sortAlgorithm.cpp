@@ -118,7 +118,7 @@ void BubbleSort(int A[], int N)
 /*Thuật toán sắp xếp rung lắc*/
 void ShakerSort(int A[], int N)
 {
-	int left = 1, right = N - 1, i, j, k;
+	int left = 1, right = N - 1, i, j, k = 0;
 	do
 	{
 		for (i = right; i >= left; i--)
